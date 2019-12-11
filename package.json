@@ -1,0 +1,24 @@
+{
+  "name": "wctiger.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss site.css -w",
+    "compile:sass": "node-sass sass/main.scss site.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wctiger/wctiger.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wctiger/wctiger.github.io/issues"
+  },
+  "homepage": "https://github.com/wctiger/wctiger.github.io#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}

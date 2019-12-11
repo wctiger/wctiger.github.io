@@ -1,0 +1,19 @@
+.section {
+    font-size: 1.5rem;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+
+    &-content {
+        display: flex;
+        width: 60vw;
+    }
+
+    &__about {
+        padding-top: 5rem;
+        background-color: $color-primary;
+        .about__image {
+            height: 50rem;
+        }
+    }
+}
